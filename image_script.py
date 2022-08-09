@@ -17,7 +17,7 @@ with open('app_images.dart', 'w') as f:
     f.write('class AppImages {')
     f.write('static const root = \'assets/images/\';')
     f.write('static const splash = \'${root}splash_image.png\';')
-    f.write('static final bottomNavigationbar = _BottomNavigationBar();}')
+    f.write('static final images = _BottomNavigationBar();}')
     f.write('class _BottomNavigationBar {')
 
 for file in image_path_file_count :
